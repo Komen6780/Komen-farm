@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Elkanah Farm — Fresh Produce in Nakuru</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container nav-container">
+      <h1 class="logo">Elkanah Farm</h1>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#products">Products</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="menu-toggle" id="menuBtn">☰</button>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="container hero-content">
+      <div class="hero-text fade-in">
+        <h2>Fresh From Our Fields to Your Table</h2>
+        <p>Supplying Nakuru with fresh, organic vegetables and eggs since 2016.</p>
+        <a href="#products" class="btn">Shop Now</a>
+        <a href="#contact" class="btn-outline">Get in Touch</a>
+      </div>
+      <img src="images/hero.jpg" alt="Farm fields" class="hero-img fade-in">
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about container fade-in">
+    <h3>About Elkanah Farm</h3>
+    <div class="about-grid">
+      <img src="images/farmer.jpg" alt="Farmer at work">
+      <div>
+        <p>We’re a family-run farm in Nakuru dedicated to producing the freshest vegetables, eggs, and grains. Our commitment to organic and sustainable farming ensures you get nutrient-rich, chemical-free produce every season.</p>
+        <p>We’ve been featured in local markets and supply several restaurants and households daily.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Products Section -->
+  <section id="products" class="products container fade-in">
+    <h3>Our Fresh Produce</h3>
+    <div class="grid">
+      <div class="card"><img src="images/tomatoes.jpg"><h4>Tomatoes</h4><p>Juicy, organic, locally grown.</p></div>
+      <div class="card"><img src="images/kales.jpg"><h4>Kales</h4><p>Rich in vitamins and always fresh.</p></div>
+      <div class="card"><img src="images/eggs.jpg"><h4>Farm Eggs</h4><p>Free-range hens, rich yellow yolks.</p></div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="services fade-in">
+    <div class="container">
+      <h3>What We Offer</h3>
+      <div class="grid">
+        <div class="service-card">
+          <img src="images/tractor.jpg" alt="Delivery Service">
+          <h4>Farm-to-Door Delivery</h4>
+          <p>We deliver farm-fresh produce directly to homes and stores in Nakuru every morning.</p>
+        </div>
+        <div class="service-card">
+          <img src="images/field.jpg" alt="Bulk Supply">
+          <h4>Wholesale Supply</h4>
+          <p>We provide bulk deliveries for hotels, schools, and institutions at competitive prices.</p>
+        </div>
+        <div class="service-card">
+          <img src="images/customers.jpg" alt="Training Service">
+          <h4>Farm Visits & Training</h4>
+          <p>We offer farm tours and organic farming workshops for students and upcoming farmers.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section id="gallery" class="gallery fade-in">
+    <div class="container">
+      <h3>Our Farm in Action</h3>
+      <div class="gallery-grid">
+        <img src="images/hero.jpg" alt="Farm Field">
+        <img src="images/tomatoes.jpg" alt="Tomatoes">
+        <img src="images/kales.jpg" alt="Kales">
+        <img src="images/eggs.jpg" alt="Eggs">
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact container fade-in">
+    <h3>Contact Us</h3>
+    <p>Ready to order or visit us? Fill out the form below or reach us on social media.</p>
+
+    <form id="contactForm">
+      <input type="text" id="name" placeholder="Your Name" required>
+      <input type="tel" id="phone" placeholder="Phone (+254 798 015729)" required>
+      <textarea id="message" rows="4" placeholder="Your Message or Order" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+    <p id="formStatus" class="form-status"></p>
+
+    <div class="socials">
+      <a href="https://facebook.com" target="_blank">Facebook</a>
+      <a href="https://instagram.com" target="_blank">Instagram</a>
+      <a href="https://twitter.com" target="_blank">Twitter</a>
+      <a href="https://wa.me/+254 798 015729" target="_blank">WhatsApp</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; <span id="year"></span> Elkanah Farm | Fresh Produce in Nakuru</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
