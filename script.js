@@ -55,7 +55,7 @@ if (form) {
     }
 
     // Your WhatsApp number (no plus, no spaces)
-    const farmNumber = "254798015729";
+    const farmNumber = "254795571316";
 
     const encodedMessage = encodeURIComponent(
       `Hello Elkanah Farm! 👋\nMy name is ${name}.\nPhone: ${phone}\n\n${message}`
